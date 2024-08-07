@@ -1,0 +1,23 @@
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(160, 66, 82);
+}
+.two{
+    width: 100px;
+    height:100px;
+    background-color: rgb(46, 138, 138);
+}
+.box{
+    display: flex;
+    gap: 10px;
+}
+@media  screen and (max-width:600px) {
+    
+    .two{
+        display: none;
+    }
+    .one{
+        border-radius: 50%;
+    }
+}
